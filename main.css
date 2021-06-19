@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Signika:wght@300&display=swap');
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+p {
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.4em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.fas {
+    font-size: 2em;
+}
+
+.fab {
+    font-size: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.row {
+    border-radius: 10px;
+}
+
+.profile-row {
+    border:none;
+    background-color: #FFF;
+    padding: 10px;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.profile-row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.do-card {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin-top: 20px;
+}
+
+.content-row {
+    background-color: #FFF;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+
+.col{
+    padding: 0;
+    margin: 2px auto;
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+    border: none;
+}
+
+.content-col {
+    margin: 35px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.social-image {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.social-image:hover {
+    transform: scale(1.2);
+}
+
+.table {
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.4em;   
+}
+
+.list-group {
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.4em;
+}
+
+.theme-wrapper {
+    text-align: center;
+}
+
+.theme {
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+   
+}
+
+.theme:hover {
+    transform: scale(1.2);
+}
+
+#light {
+    background-color: #FFF;
+}
+
+#dark {
+    background-color: rgb(20, 20, 20);
+}
+
+#blue {
+    background-color: #18334d;
+}
+
+#teal {
+    background-color: #008080;
+}
