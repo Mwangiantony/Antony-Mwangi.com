@@ -1,0 +1,151 @@
+body {
+    background-color: teal;
+    color: white;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgb(0, 83, 83);
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* content intro */
+.greeting {
+    width: 100%;
+    margin: 90px auto;
+}
+
+.container-fluid {
+    background-color: rgb(0, 83, 83);
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+.intro {
+    width: 100%;
+}
+
+.card-intro {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile-img {
+    width: 100%;
+    margin: 10px auto;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+/* about content */
+.second-col {
+    background-color: rgb(0, 83, 83);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 3px auto;
+    width: 100%;
+}
+
+.second-col ul {
+    padding: 0;
+    margin: 10px;
+    width: 100%
+}
+
+.second-col ul li {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.second-col ul li:hover{
+    background-color: teal;
+}
+
+.social-img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.social-img:hover {
+    transform: scale(1.2);
+}
+
+.tel-number {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.tel-number:hover {
+    color: rgb(238, 238, 238);
+    border-bottom: 1px solid teal;
+}
+
+.third-col {
+    background-color: rgb(0, 83, 83);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.quote-generator {
+    color: rgb(108, 238, 238);
+    font-size: 1.2em;
+}
+
+.quote-generator:hover {
+    color: #fff;
+}
+
+.fab {
+    font-size: 2em;
+    margin: 10px;
+    float:left;
+    display: block;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
